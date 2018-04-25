@@ -1,9 +1,13 @@
-
+/*
+ * Created by Mickaël Carpené
+ * Repo: https://github.com/BurningPigM/verbose-happiness
+ * 
+ */
 public class Somme {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(somme(1,5));
+		System.out.println("Somme de 1 et 5: " + somme(1,5));
+		System.out.println("Soustraction de 1 et 5: " + soustraction(1,5));
 	}
 	
 	
@@ -11,4 +15,7 @@ public class Somme {
 		return a+b;
 	}
 
+	public static int soustraction(int a, int b) {
+		return a-b;
+	}
 }
